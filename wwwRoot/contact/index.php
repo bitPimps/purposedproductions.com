@@ -20,20 +20,15 @@
 					</div>
 					<div class="col-md-4">
 						<h3>Phone &amp; Email</h3>
-						<p><a href="tel:+13149608976">314.960.8976</a><br>
-							<a href="mailto:reesetravel4u@gmail.com">reesetravel4u@gmail.com</a></p>
-						<img class="img-fluid rounded shadow" src="../img/beach.jpg">
+						<p><a href="tel:+13147768750">314.776.8750</a><br>
+							<a href="mailto:PurposedProductions@Gmail.com">PurposedProductions@Gmail.com</a></p>
+						<h3>Hours</h3>
+						<p>Mon-Fri<br>
+							8:00 am - 5:00 pm</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col">
-					</div>
-				</div>
-			</section>
-			<section class="container py-5">
-				<div class="row">
-					<div class="col">
-						<img class="mx-auto d-block w-50" src="/img/logos/travel-angel-planner-square.png" alt="Travel Angel Planner LLC">
 					</div>
 				</div>
 			</section>
