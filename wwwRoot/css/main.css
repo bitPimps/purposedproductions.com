@@ -1,47 +1,10 @@
-/*
-
-Primary 1: Green hues (dark to light)
-#2D661B;
-#467B35;
-#649B52;
-#8BBA7C;
-#BBDBB1;
-
-Secondary 1: Purple hues (dark to light)
-#5B1846;
-#6E305B;
-#8A4976;
-#A66F95;
-#C69FBA;
-
-Primary 2: Blue hues (dark to light)
-#235E9B;
-#3E74AC;
-#5E91C6;
-#87B1DD;
-#BBD5F1;
-
-Secondary 2: Orange hues (dark to light)
-#EE6A26;
-#FF894E;
-#FF9F6E;
-#FFB894;
-#FFD6C1;
-
-
-Primary colors swatch (r,g,b, etc.)
-Red:	#F44336;
-Pink:	#E91E63;
-Purple:	#9C27B0;
-Blue:	#2196F3;
-Green:	#4CAF50;
-Yellow:	#FDD835;
-Orange:	#FF9800;
-*/
+html {
+	scroll-behavior:smooth;
+}
 body {
 	background-color:#fff;
 	font-family: 'Hind Madurai', helvetica, arial, sans-serif;
-	padding-top: 5.9rem;
+	padding-top: 6rem;
 }
 @media (min-width: 576px) {
 	body {
@@ -49,33 +12,18 @@ body {
 	}
 }
 form #website {display:none;}
-a {
-	color:#3e5ed1;
-}
+
 header,h1,h2,h3,h4,h5,h6,.lead {
-	color:#5874da;
+	color:#E63530;
 	font-family: 'Lora', Georgia, times, serif;
 	font-style: oblique;
 }
 .lead {
 	color:#424242;
 }
-.fancy {
-	font-family: 'Dancing Script', cursive;
-}
-/* Primary colors */
-.black {color:#000000;}
-.red {color:#F44336;}
-.pink {color:#E91E63;}
-.purple {color:#acbdf8;}
-.blue {color:#a4e7f7;}
-.green {color:#4CAF50;}
-.yellow {color:#FDD835;}
-.orange {color:#FF9800;}
-.white {color:#FFFFFF;}
 /* Navbar */
 .bg-navbar {
-	background-color:#fff;
+	background-color:rgba(0, 0, 0, 100);
 }
 .navbar-brand img {
 	max-height:78px;
@@ -163,10 +111,10 @@ header,h1,h2,h3,h4,h5,h6,.lead {
 }
 /* Breadcrumb */
 #breadcrumb,.breadcrumb {
-	background-color: #3e5ed1;
+	background-color: #C41410;
 }
 .breadcrumb-item + .breadcrumb-item::before, .breadcrumb-item.active {
-	color: #d7dffc;
+	color: #FFCDD2;
 }
 .breadcrumb-item {
 	margin-top:25px;
@@ -178,25 +126,19 @@ header,h1,h2,h3,h4,h5,h6,.lead {
 	color:#fff;
 }
 /* Main */
-.bg-icon {color:#a4e7f7;}
+
 /* Footer */
-footer .light {
-	background-color:#d7dffc;
-}
-footer .dark {
-	background-color:#a3faba;
+footer {
+  background:rgba(0, 0, 0, 100);
+  color:rgba(255,255,255,.5);
+  width: 100%;
+  padding: 20px;
 }
 footer a {
-	color:#2D661B;
+	color:#EA80FC;
 }
 footer a:hover {
-	color:#467B35;
-}
-footer h2 {
-	color:#2D661B;
-}
-.contact-info,.copyright {
-	color:#424242;
+	color:#E040FB;
 }
 @media (min-width: 768px) {
 	.copyright {

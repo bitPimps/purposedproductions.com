@@ -1,20 +1,22 @@
-<footer class="footer">
-			<section class="light">
-				<div class="container">
-					<div class="row pt-3">
-						<div class="col-md-6 contact-info">
-							<p><small>Travel Angel Planner LLC | <a href="tel:+13149608976">314.960.8976</a> | <a href="mailto:reesetravel4u@gmail.com">reesetravel4u@gmail.com</a></small></p>
-						</div>
-						<div class="col-md-6 copyright">
-							<p><small>Copyright &copy; <?php echo date("Y") ?> Travel Angel Planner LLC - All Rights Reserved.</small></p>
-						</div>
+<footer class="footer mt-auto py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<small>
+							Bookings: <a href="tel:+13147768750">314.776.8750</a> | <a href="mailto:PurposedProductions@Gmail.com">PurposedProductions@Gmail.com</a>
+						</small>
+					</div>
+					<div class="col copyright">
+						<small>
+							Copyright &copy; <?php echo date("Y") ?> PURPOSED Productions - All Rights Reserved.
+						</small>
 					</div>
 				</div>
-			</section>
+			</div>
 		</footer>
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 		<script>
 			WebFontConfig = {

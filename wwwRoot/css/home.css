@@ -5,7 +5,26 @@
   min-width: 100%;
   min-height: 100%;
 }
-/* Navbar */
 .bg-navbar {
 	background-color:rgba(0, 0, 0, 0.85);
+}
+header {
+  position: fixed;
+  top: 25%;
+  width: 100%;
+  padding: 20px;
+}
+header,h1,h2,h3,h4,h5,h6,.lead {
+	color:#fff;
+	font-family: 'Lora', Georgia, times, serif;
+	font-style: oblique;
+}
+h1 {
+	font-size:7rem;
+	text-shadow:6px 6px 10px #000;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  background:rgba(0, 0, 0, 0.85);
 }

@@ -106,11 +106,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 									   );
 			$mail->Username = "webcontact@iconatg.com";
 			$mail->Password = "riscjxmdgxnteamr";
-			$mail->setFrom('reesetravel4u@gmail.com', 'Travel Angel Planner Website');
-			$mail->addReplyTo('reesetravel4u@gmail.com', 'Travel Angel Planner Website');
-			$mail->addAddress('reesetravel4u@gmail.com', 'Travel Angel Planner Website');
+			$mail->setFrom('PurposedProductions@Gmail.com', 'PURPOSED Productions Website');
+			$mail->addReplyTo('PurposedProductions@Gmail.com', 'PURPOSED Productions Website');
+			$mail->addAddress('PurposedProductions@Gmail.com', 'PURPOSED Productions Website');
 			//$mail->addAddress('scott.lix@iconagility.com', 'Icon Website');
-			$mail->Subject = 'Travel Angel Planner Website Contact';
+			$mail->Subject = 'PURPOSED Productions Contact';
 			$mail->Body =	"The user has sent an e-mail.\n" .
 							"Referer: " . $whereFrom . "\n\n" . 
 							"Name: " . $inputName . "\n" .
