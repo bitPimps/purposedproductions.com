@@ -40,19 +40,37 @@
 						<hr>
 						<h2>Training &amp; Workshops</h2>
 						<ul>
-							<li><b>Producing:</b></li>
-							<li><b>Screenwriting:</b></li>
-							<li><b>Assistant Director:</b></li>
-							<li><b>Production Assistant (PA):</b></li>
-							<li><b>Internship:</b></li>
-							<li><b>Apprenticeship:</b></li>
+							<li><b>Producing:</b> Panel Speaker and Workshops available.</li>
+							<li><b>Screenwriting:</b> Panel Speaker and Workshops available.</li>
+							<li><b>Assistant Director:</b> Panel Speaker and Workshops available.</li>
+							<li><b>Production Assistant (PA):</b> Focuses on offering training to entry level creatives, Veterans and the underserved.</li>
+							<li><b>Internship:</b> Open to High school age youth to young adults. PA training is required.* Program length is a case by case determination.</li>
+							<li><b>Apprenticeship:</b> Available for those that have graduated from our Internship Program or applicants that meet the program requirements.</li>
 						</ul>
 						<hr>
 						<h2>Consulting</h2>
 						<ul>
-							<li><b>Consultation</b></li>
-							<li><b>Project Consulting</b></li>
-							<li><b>Business &amp; Individual Consulting</b></li>
+							<li><b>Consultation:</b> Fees are project based.*</li>
+							<li><b>Project Consulting:</b> This option is best served for a customer that requires consulting for a single project. Fees are project based.*</li>
+							<li><b>Business &amp; Individual Consulting:</b> If you have monthly or regular consulting needs then this is your best choice. Fees are project based.* Retainer options available.</li>
+						</ul>
+						<hr>
+						<h2>What Else is Under the Umbrella</h2>
+						<ul class="list-unstyled">
+							<li class="media">
+								<img src="../img/logos/Mock-Media.png" class="border mr-3 w-25" alt="Mock Media">
+								<div class="media-body">
+									<h5 class="mt-0">Mock Media</h5>
+									Productions with gritty content not on brand with Purposed Productions. &quot;Not your granny's screenplay.&quot;
+								</div>
+							</li>
+							<li class="media">
+								<img src="../img/logos/POWM.png" class="border mr-3 w-25" alt="POWM">
+								<div class="media-body">
+									<h5 class="mt-0">POWM</h5>
+									Customized Cards and Philanthropy - &quot;Plugging in to the CommUNITY on Purpose.&quot;
+								</div>
+							</li>
 						</ul>
 					</div>
 					<div class="col-md-4">
