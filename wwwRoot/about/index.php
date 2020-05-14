@@ -81,7 +81,7 @@ Louis, MO with her two amazing teenage children.</p>
 					</div>
 					<div class="col-md-4">
 						<img class="img-fluid rounded shadow mx-auto mb-4" src="../img/JMG-Headshot.jpg" alt="Jana M. Gamble">
-						<div class="row">
+						<div class="row mb-4">
 							<div class="col-md-6">
 								<img class="img-fluid rounded shadow mx-auto" src="../img/logos/Purposed-Productions-lg.png">
 							</div>
@@ -100,6 +100,7 @@ Louis, MO with her two amazing teenage children.</p>
 					</div>
 				</div>
 				<hr>
+				<h2>Purchase Books by Jana M. Gamble!</h2>
 				<div class="row">
 					<div class="col-lg-3 col-md-6">
 						<div class="card">
