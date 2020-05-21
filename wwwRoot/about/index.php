@@ -89,12 +89,19 @@ Louis, MO with her two amazing teenage children.</p>
 								<img class="img-fluid rounded shadow mx-auto" src="../img/logos/Mock-Media.png">
 							</div>
 						</div>
-						<div class="row">
+						<div class="row mb-4">
 							<div class="col-md-6">
 								<img class="img-fluid rounded shadow mx-auto" src="../img/logos/POWM.png">
 							</div>
 							<div class="col-md-6">
 								<img class="img-fluid rounded shadow mx-auto" src="../img/logos/OBS.jpg">
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="col-md-6">
+								<img class="img-fluid rounded shadow mx-auto" src="../img/logos/HPN.png">
+							</div>
+							<div class="col-md-6">
 							</div>
 						</div>
 					</div>
