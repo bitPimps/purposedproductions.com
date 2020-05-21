@@ -135,10 +135,10 @@ footer {
   padding: 20px;
 }
 footer a {
-	color:#EA80FC;
+	color:#C41410;
 }
 footer a:hover {
-	color:#E040FB;
+	color:#e4e4e4;
 }
 @media (min-width: 768px) {
 	.copyright {
