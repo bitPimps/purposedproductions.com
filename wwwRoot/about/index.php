@@ -32,7 +32,7 @@
 				<div class="row">
 					<div class="col-md-8">
 						<h2>Jana M. Gamble</h2>
-						<p class="lead">Owner and CEO of It's A Gamble Production DBA Purposed Productions</p>
+						<p class="lead">Owner and CEO of It's A Gamble LLC DBA Purposed Productions</p>
 						<p>Jana M. Gamble, is a Producer, Screenwriter, Director, Assistant Director, Speaker,
 Author & Advocate. She was born in the small town of Moberly, Missouri to two loving
 parents- Ron Gamble, an African American man who was a MO State Trooper and
