@@ -94,14 +94,21 @@ Louis, MO with her two amazing teenage children.</p>
 								<img class="img-fluid rounded shadow mx-auto" src="../img/logos/POWM.png">
 							</div>
 							<div class="col-md-6">
-								<img class="img-fluid rounded shadow mx-auto" src="../img/logos/OBS.jpg">
+								<a href="https://obswriter.com/" target="_blank">
+									<img class="img-fluid rounded shadow mx-auto" src="../img/logos/OBS.jpg">
+								</a>
 							</div>
 						</div>
 						<div class="row mb-4">
 							<div class="col-md-6">
-								<img class="img-fluid rounded shadow mx-auto" src="../img/logos/HPN.png">
+								<a href="https://hollywoodprayernetwork.org/" target="_blank">
+									<img class="img-fluid rounded shadow mx-auto" src="../img/logos/HPN.png">
+								</a>
 							</div>
 							<div class="col-md-6">
+								<a href="https://www.habitatforneighborhoodbusiness.org/" target="_blank">
+									<img class="img-fluid rounded shadow mx-auto" src="../img/logos/HNB.jpg">
+								</a>
 							</div>
 						</div>
 					</div>
