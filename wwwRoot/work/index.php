@@ -55,7 +55,10 @@
 							Be a leader in producing Indie entertainment content and education that provokes positive internal and societal change.</p>
 					</div>
 					<div class="col-md-4">
-						
+						<figure class="figure">
+							<img src="../img/KnowAnnieMalone.jpg" class="figure-img img-fluid rounded w-75" alt="KnowAnnieMalone.com">
+							<figcaption class="figure-caption"><a href="http://knowanniemalone.com/" target="_blank">KnowAnnieMalone.com</a></figcaption>
+						</figure>
 					</div>
 				</div>
 				<hr>
