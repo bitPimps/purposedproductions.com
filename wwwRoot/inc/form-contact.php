@@ -17,10 +17,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		die("Forbidden - You are not authorized to view this page");
 		exit;
 	}
-	/*
 	// Host names from where the form is authorized
 	// to be posted from:  
-	$authHosts = array("iconagility.com", "dev.iconagility.com");
+	$authHosts = array("iconagility.com", "dev.iconagility.com", "purposedproductions.com");
 	// Where have we been posted from?
 	$fromArray = parse_url(strtolower($_SERVER['HTTP_REFERER']));
 	// Test to see if the $fromArray used www to get here.
@@ -32,7 +31,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		header("Location: " . basename($_SERVER['PHP_SELF']) . "");
 		exit;
 	}
-	*/
 	// Attempt to defend against header injections:
 	$badStringsContact = array("Content-Type:", 
                      	"MIME-Version:", 
