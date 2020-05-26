@@ -15,4 +15,4 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script|Hind+Madurai|Lora&display=swap">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="/pp/css/main.css?<?php echo(rand(10,10000)); ?>" />
+		<link rel="stylesheet" href="/css/main.min.css" />

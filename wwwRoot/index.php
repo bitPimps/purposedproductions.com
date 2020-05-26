@@ -6,7 +6,7 @@
 		<title>PURPOSED Productions</title>
 		<meta name="description" content="">
 		<?php include_once("inc/meta-data.php"); ?>
-		<link rel="stylesheet" href="css/home.css?<?php echo(rand(10,10000)); ?>" />
+		<link rel="stylesheet" href="css/home.css" />
 	</head>
 
 	<body class="d-flex flex-column h-100">
