@@ -27,7 +27,7 @@
 }
  @media (min-width: 576px) {
 	 #imgModal .carousel-item img {
-		 height: 350px;
+		 height: 650px;
 	}
 }
 		</style>
@@ -49,8 +49,13 @@
 					<div class="col-md-8">
 						<h1>Work</h1>
 						<p class="lead">Producing Indie entertainment and education.</p>
+						<p><strong>Mission</strong><br>
+							Purposed Productions creates riveting stories for film and television that speak to a cross-cultural audience. We inspire creatives and the underserved to realize their dreams by providing them education, resources and coaching that position them for personal and communal empowerment.</p>
+						<p><strong>Vision</strong><br>
+							Be a leader in producing Indie entertainment content and education that provokes positive internal and societal change.</p>
 					</div>
 					<div class="col-md-4">
+						
 					</div>
 				</div>
 				<hr>
@@ -124,7 +129,7 @@
 							</div>
 							<div class="col-lg-3 col-md-4 col-6">
 								<a href="#" class="d-block h-100" data-target="#imgCarousel" data-slide-to="11">
-									<img class="img-fluid" src="../img/gallery/40528727_1909054116064486_1236367805725540352_o.jpg" alt="">
+									<img class="img-fluid" src="../img/gallery/84961837_2231756687127559_471668927580078080_o.jpg" alt="">
 								</a>
 							</div>
 						</div><!-- /gallery row -->
@@ -187,7 +192,7 @@
 													<img class="d-block w-100" src="../img/gallery/33777441_10215827182609640_1183801142644047872_o.jpg">
 												</div>
 												<div class="carousel-item">
-													<img class="d-block w-100" src="../img/gallery/40528727_1909054116064486_1236367805725540352_o.jpg">
+													<img class="d-block w-100" src="../img/gallery/84961837_2231756687127559_471668927580078080_o.jpg">
 												</div>
 											</div>
 											<a class="carousel-control-prev" href="#imgCarousel" role="button" data-slide="prev">
@@ -208,20 +213,41 @@
 						</div><!-- /imgModal -->
 						<hr>
 						<h2 id="Videos">Videos</h2>
-						<div class="row">
+						<div class="row mb-4">
 							<div class="col-md-6">
 								<div class="embed-responsive embed-responsive-16by9">
-									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SQ0I0SRW9_U?rel=0" allowfullscreen></iframe>
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Eb0FvDwOFVo?rel=0" allowfullscreen></iframe>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="embed-responsive embed-responsive-16by9">
-									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L1cHSoARzS0?rel=0" allowfullscreen></iframe>
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oII3j_Qoggg?rel=0" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div><!-- /row -->
+						<div class="row">
+							<div class="col-md-6">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uX48SIHtDWA?rel=0" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RBgpI9YqJFM?rel=0" allowfullscreen></iframe>
 								</div>
 							</div>
 						</div><!-- /row -->
 						<hr>
 						<h2 id="Posters">Movie Posters</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<img class="img-fluid rounded shadow" src="../img/gallery/EyesDontLie_MoviePoster.jpg" alt="Eyes Don't Lie">
+							</div>
+							<div class="col-md-6">
+								<img class="img-fluid rounded shadow" src="../img/gallery/MovieFlyer-Main-Poster.jpg" alt="Hitman Holla">
+							</div>
+						</div><!-- /row -->
+						<!--
 						<div class="row">
 							<div class="col">
 								<div id="myCarousel" class="carousel slide" data-ride="carousel">
