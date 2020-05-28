@@ -20,8 +20,13 @@ header,h1,h2,h3,h4,h5,h6,.lead {
 	font-style: oblique;
 }
 h1 {
-	font-size:7rem;
+	font-size:3rem;
 	text-shadow:6px 6px 10px #000;
+}
+@media (min-width: 576px) {
+	h1 {
+		font-size:7rem;
+	}
 }
 footer {
   position: fixed;
