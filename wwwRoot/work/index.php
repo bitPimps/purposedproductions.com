@@ -236,7 +236,7 @@
 							</div>
 							<div class="col-md-6">
 								<div class="embed-responsive embed-responsive-16by9">
-									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RBgpI9YqJFM?rel=0" allowfullscreen></iframe>
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cF9D5BqIqV8?rel=0" allowfullscreen></iframe>
 								</div>
 							</div>
 						</div><!-- /row -->
