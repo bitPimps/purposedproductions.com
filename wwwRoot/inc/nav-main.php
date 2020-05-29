@@ -19,6 +19,9 @@
 						<li class="nav-item<?php if($navMainOn=="Work"){?> active<?php } ?>">
 							<a class="nav-link" href="/work/index.php">Work<?php if($navMainOn=="Work"){?><span class="sr-only"> (current)</span><?php } ?></a>
 						</li>
+						<li class="nav-item<?php if($navMainOn=="Bookings"){?> active<?php } ?>">
+							<a class="nav-link" href="/bookings/index.php">Bookings<?php if($navMainOn=="Bookings"){?><span class="sr-only"> (current)</span><?php } ?></a>
+						</li>
 						<li class="nav-item<?php if($navMainOn=="Contact"){?> active<?php } ?>">
 							<a class="nav-link" href="/contact/index.php">Contact<?php if($navMainOn=="Contact"){?><span class="sr-only"> (current)</span><?php } ?></a>
 						</li>
