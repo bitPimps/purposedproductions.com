@@ -39,6 +39,13 @@
 					</div>
 				</div>
 				<div class="row">
+					<div class="col text-center">
+						<a href="../img/Business-Card.jpg" target="_blank">
+							<img class="img-thumbnail mx-auto" src="../img/Business-Card.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="row my-4">
 					<div class="col-md-6">
 						<a href="../img/Speakers-Artists-Topics.jpg" target="_blank">
 							<img class="img-thumbnail" src="../img/Speakers-Artists-Topics.jpg">
