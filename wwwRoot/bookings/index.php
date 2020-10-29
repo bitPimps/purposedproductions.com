@@ -14,21 +14,54 @@
 			<div class="container">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="/index.php">Home</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Bookings</li>
+					<li class="breadcrumb-item active" aria-current="page">Bookings &amp; Events</li>
 				</ol>
 			</div>
 		</nav>
 		<main role="main">
-			<section class="container py-5">
+			<div class="container py-5">
 				<div class="row">
 					<div class="col-md-8">
-						<h1>Bookings</h1>
+						<h1>Bookings &amp; Events</h1>
 						<p class="lead">Representing speakers and artists alike.</p>
 					</div>
 					<div class="col-md-4">
 					</div>
 				</div>
 				<hr>
+				<section id="events">
+				<div class="row">
+					<div class="col-md-8">
+						<h2>Upcoming Events</h2>
+						<table class="table">
+							<thead class="thead-light">
+								<tr>
+									<th scope="col">Date &amp; Time</th>
+									<th scope="col">Topic</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										Nov 3, 2020<br>
+										<small>01:00 PM Central Time<br>
+										(US and Canada)</small>
+									</td>
+									<td>
+										<a href="https://zoom.us/meeting/register/tJMlc--orzMiE9AKlLKF8ZpN2bQwQeNshdOi" target="_blank">
+											Writing On Purpose | Screenwriters' Accountability Lab
+										</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-4">
+					</div>
+				</div>
+				</section>
+				<hr>
+				<section id="booking">
 				<div class="row">
 					<div class="col-md-8">
 						<h2>Book Now!</h2>
@@ -57,7 +90,8 @@
 						</a>
 					</div>
 				</div>
-			</section>
+				</section>
+			</div>
 		</main>
 		<?php include_once("../inc/footer.php"); ?>
 	</body>
