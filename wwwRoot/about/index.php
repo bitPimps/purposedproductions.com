@@ -19,7 +19,7 @@
 			</div>
 		</nav>
 		<main role="main">
-			<section class="container py-5">
+			<div class="container py-5">
 				<div class="row">
 					<div class="col-md-8">
 						<h1>About</h1>
@@ -114,6 +114,7 @@ Louis, MO with her two amazing teenage children.</p>
 					</div>
 				</div>
 				<hr>
+				<section id="books">
 				<h2>Purchase Books by Jana M. Gamble!</h2>
 				<div class="row mb-5">
 					<div class="col-lg-3 col-md-6">
@@ -165,7 +166,9 @@ Louis, MO with her two amazing teenage children.</p>
 						</div><!-- /card -->
 					</div>
 				</div>
+				</section>
 				<hr>
+				<section id="covid">
 				<h3>COVID Statement</h3>
 				<div class="row mb-5">
 					<div class="col-md-8">
@@ -176,7 +179,9 @@ Louis, MO with her two amazing teenage children.</p>
 						<img class="img-fluid" src="../img/logos/VLAA.jpg" alt="Volunteer Lawyers & Accountants">
 					</div>
 				</div>
+				</section>
 				<hr>
+				<section id="blm">
 				<h3>Our Stand for Black Lives Matter &amp; of Racial Healing in our country</h3>
 				<div class="row mb-5">
 					<div class="col-lg-6">
@@ -186,14 +191,17 @@ Louis, MO with her two amazing teenage children.</p>
 						<img class="img-fluid mt-5" src="../img/pages/mlk-quote-4-justice.jpg">
 					</div>
 				</div>
+				</section>
 				<hr>
-				<h3>Philanthropy / Organizations we Sponsor</h3>
+				<section id="sponsor">
+				<h3 id="sponsor">Philanthropy / Organizations we Sponsor</h3>
 				<div class="row">
 					<div class="col-md-6">
 						<img class="img-fluid" src="../img/logos/Chosen-For-Change.png" alt="Chosen For Change">
 					</div>
 				</div>
-			</section>
+				</section>
+			</div>
 		</main>
 		<?php include_once("../inc/footer.php"); ?>
 	</body>

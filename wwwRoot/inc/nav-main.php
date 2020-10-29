@@ -10,9 +10,19 @@
 						<li class="nav-item<?php if($navMainOn=="Home"){?> active<?php } ?>">
 							<a class="nav-link" href="/index.php">Home<?php if($navMainOn=="Home"){?><span class="sr-only"> (current)</span><?php } ?></a>
 						</li>
+						<li class="nav-item dropdown<?php if($navMainOn=="About"){?> active<?php } ?>">
+							<a class="nav-link dropdown-toggle" href="/about/index.php" id="dropdownAbout" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownAbout">
+								<a class="dropdown-item" id="mainnavAboutPP" href="/about/index.php">PURPOSED Productions</a>
+								<a class="dropdown-item" id="mainnavAboutCS" href="/about/index.php#covid">COVID Statement</a>
+								<a class="dropdown-item" id="mainnavAboutBLM" href="/about/index.php#blm">Our Stand for Black Lives Matter</a>
+							</div>
+						</li>
+						<!--
 						<li class="nav-item<?php if($navMainOn=="About"){?> active<?php } ?>">
 							<a class="nav-link" href="/about/index.php">About<?php if($navMainOn=="About"){?><span class="sr-only"> (current)</span><?php } ?></a>
 						</li>
+						-->
 						<li class="nav-item<?php if($navMainOn=="Services"){?> active<?php } ?>">
 							<a class="nav-link" href="/services/index.php">Services<?php if($navMainOn=="Services"){?><span class="sr-only"> (current)</span><?php } ?></a>
 						</li>
@@ -20,7 +30,7 @@
 							<a class="nav-link" href="/work/index.php">Work<?php if($navMainOn=="Work"){?><span class="sr-only"> (current)</span><?php } ?></a>
 						</li>
 						<li class="nav-item<?php if($navMainOn=="Bookings"){?> active<?php } ?>">
-							<a class="nav-link" href="/bookings/index.php">Bookings<?php if($navMainOn=="Bookings"){?><span class="sr-only"> (current)</span><?php } ?></a>
+							<a class="nav-link" href="/bookings/index.php">Bookings &amp; Events<?php if($navMainOn=="Bookings"){?><span class="sr-only"> (current)</span><?php } ?></a>
 						</li>
 						<li class="nav-item<?php if($navMainOn=="Contact"){?> active<?php } ?>">
 							<a class="nav-link" href="/contact/index.php">Contact<?php if($navMainOn=="Contact"){?><span class="sr-only"> (current)</span><?php } ?></a>
