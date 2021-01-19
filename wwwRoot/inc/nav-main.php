@@ -16,6 +16,9 @@
 								<a class="dropdown-item" id="mainnavAboutPP" href="/about/index.php">PURPOSED Productions</a>
 								<a class="dropdown-item" id="mainnavAboutCS" href="/about/index.php#covid">COVID Statement</a>
 								<a class="dropdown-item" id="mainnavAboutBLM" href="/about/index.php#blm">Our Stand for Black Lives Matter</a>
+								<div class="dropdown-divider"></div>
+								<h6 class="dropdown-header">Press Releases</h6>
+								<a class="dropdown-item" id="mainnavPR1" href="/docs/Mentoring-Making-The-Difference.pdf" target="_blank">Mentoring Making The Difference</a>
 							</div>
 						</li>
 						<!--
