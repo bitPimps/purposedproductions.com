@@ -19,7 +19,7 @@
 			</div>
 		</nav>
 		<main role="main">
-			<section class="container py-5">
+			<div class="container py-5">
 				<div class="row">
 					<div class="col-md-8">
 						<h1>Services</h1>
@@ -77,7 +77,7 @@
 						<img class="img-fluid rounded shadow mx-auto mb-4" src="../img/Jana-M-Gamble.jpg" alt="Jana M. Gamble">
 					</div>
 				</div>
-			</section>
+			</div>
 		</main>
 		<?php include_once("../inc/footer.php"); ?>
 	</body>

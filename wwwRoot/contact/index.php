@@ -19,7 +19,7 @@
 			</div>
 		</nav>
 		<main role="main">
-			<section class="container py-5">
+			<div class="container py-5">
 				<div class="row">
 					<div class="col-md-8">
 						<h1>Contact Us</h1>
@@ -39,7 +39,7 @@
 					<div class="col">
 					</div>
 				</div>
-			</section>
+			</div>
 		</main>
 		<?php include_once("../inc/footer.php"); ?>
 	</body>
