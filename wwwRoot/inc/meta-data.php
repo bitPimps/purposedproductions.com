@@ -1,4 +1,13 @@
-<meta http-equiv="x-dns-prefetch-control" content="on">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SY6MJQKVJ0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SY6MJQKVJ0');
+</script>
+		<meta http-equiv="x-dns-prefetch-control" content="on">
 		<link rel="dns-prefetch" href="//ajax.googleapis.com" />
 		<link rel="dns-prefetch" href="//fonts.googleapis.com" />
 		<link rel="dns-prefetch" href="//google-analytics.com" />
