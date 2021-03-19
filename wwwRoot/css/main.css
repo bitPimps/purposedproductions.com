@@ -22,9 +22,8 @@ header,h1,h2,h3,h4,h5,h6,.lead {
 	color:#424242;
 }
 section:before {
-    height: 143px;
-    content: "";
-    display:block;
+	padding-top: 143px;
+	margin-top: -143px;
 }
 /* Navbar */
 .bg-navbar {
