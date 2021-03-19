@@ -36,17 +36,11 @@
 						<table class="table">
 							<thead class="thead-light">
 								<tr>
-									<th scope="col">Date &amp; Time</th>
 									<th scope="col">Topic</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>
-										Nov 3, 2020<br>
-										<small>01:00 PM Central Time<br>
-										(US and Canada)</small>
-									</td>
 									<td>
 										<a href="https://zoom.us/meeting/register/tJMlc--orzMiE9AKlLKF8ZpN2bQwQeNshdOi" target="_blank">
 											Writing On Purpose | Screenwriters' Accountability Lab
@@ -66,7 +60,8 @@
 					<div class="col-md-8">
 						<h2>Book Now!</h2>
 						<p class="lead">Owner and CEO of It's A Gamble LLC DBA Purposed Productions</p>
-						<p>Click images to enlarge.</p>
+						<p><a target="_blank" class="btn btn-lg btn-danger" href="https://purposedproductions.square.site/" rel="nofollow">Book an Appointment</a></p>
+						<p><small>Click images to enlarge.</small></p>
 					</div>
 					<div class="col-md-4">
 					</div>
