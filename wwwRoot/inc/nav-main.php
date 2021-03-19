@@ -35,6 +35,9 @@
 						<li class="nav-item<?php if($navMainOn=="Bookings"){?> active<?php } ?>">
 							<a class="nav-link" href="/bookings/index.php">Bookings &amp; Events<?php if($navMainOn=="Bookings"){?><span class="sr-only"> (current)</span><?php } ?></a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://shop.spreadshirt.com/purposed-apparel" target="_blank">Shop</a>
+						</li>
 						<li class="nav-item<?php if($navMainOn=="Contact"){?> active<?php } ?>">
 							<a class="nav-link" href="/contact/index.php">Contact<?php if($navMainOn=="Contact"){?><span class="sr-only"> (current)</span><?php } ?></a>
 						</li>
