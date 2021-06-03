@@ -60,15 +60,22 @@
 							<li class="media">
 								<img src="../img/logos/Mock-Media.png" class="border mr-3 w-25" alt="Mock Media">
 								<div class="media-body">
-									<h5 class="mt-0">Mock Media</h5>
+									<h5 class="mt-3">Mock Media</h5>
 									Productions with gritty content not on brand with Purposed Productions. &quot;Not your granny's screenplay.&quot;
 								</div>
 							</li>
 							<li class="media">
 								<img src="../img/logos/POWM.png" class="border mr-3 w-25" alt="POWM">
 								<div class="media-body">
-									<h5 class="mt-0">POWM</h5>
+									<h5 class="mt-3">POWM</h5>
 									Customized Cards and Philanthropy - &quot;Plugging in to the CommUNITY on Purpose.&quot;
+								</div>
+							</li>
+							<li class="media">
+								<img src="../img/logos/HPN.png" class="border mr-3 w-25" alt="Hollywood Prayer Network">
+								<div class="media-body">
+									<h5 class="mt-3">Hollywood Prayer Network</h5>
+									Nonprofit 501(c)3 organization seeking to build a bridge between the Church and Hollywood through prayer.
 								</div>
 							</li>
 						</ul>

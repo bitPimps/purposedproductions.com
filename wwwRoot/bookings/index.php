@@ -47,6 +47,15 @@
 										</a>
 									</td>
 								</tr>
+								<tr>
+									<td>
+										<a href="https://zoom.us/meeting/register/tJ0tfuqrpzwjGtzrajI4bACU8oHxTYzLAGJO" target="_blank">
+											You are invited to HPNStL's Zoom meeting<br>
+											Jun 9, 2021 10:30 AM Central Time (US and Canada)
+										</a><br>
+										<small class="text-muted">After registering, you will receive a confirmation email containing information about joining the meeting.</small>
+									</td>
+								</tr>
 							</tbody>
 						</table>
 					</div>
