@@ -72,7 +72,7 @@
 								</div>
 							</li>
 							<li class="media">
-								<img src="../img/logos/HPN.png" class="border mr-3 w-25" alt="Hollywood Prayer Network">
+								<img src="../img/logos/HPN-STL.png" class="border mr-3 w-25" alt="Hollywood Prayer Network">
 								<div class="media-body">
 									<h5 class="mt-3">Hollywood Prayer Network</h5>
 									Nonprofit 501(c)3 organization seeking to build a bridge between the Church and Hollywood through prayer.
