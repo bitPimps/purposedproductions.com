@@ -19,6 +19,9 @@
 								<div class="dropdown-divider"></div>
 								<h6 class="dropdown-header">Press Releases</h6>
 								<a class="dropdown-item" id="mainnavPR1" href="/docs/Mentoring-Making-The-Difference.pdf" target="_blank">Mentoring Making The Difference</a>
+								<div class="dropdown-divider"></div>
+								<h6 class="dropdown-header">Newsletters</h6>
+								<a class="dropdown-item" id="mainnavPR1" href="/docs/Purposed-Pages-v01-iss01.pdf" target="_blank">Purposed Pages Newsletter - Volum 1, Issue 1 - 2021</a>
 							</div>
 						</li>
 						<!--
@@ -43,7 +46,7 @@
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdownSocial" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Follow</a>
-							<div class="dropdown-menu" aria-labelledby="dropdownSocial">
+							<div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownSocial">
 								<a class="dropdown-item" href="https://www.facebook.com/PurposedProductions/" target="_blank"><i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>@PurposedProductions</a>
 								<a class="dropdown-item" href="https://www.facebook.com/jana.m.gamble" target="_blank"><i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>@JanaMGamble</a>
 								<a class="dropdown-item" href="https://www.instagram.com/purposedproductions/" target="_blank"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i>@PurposedProductions</a>
