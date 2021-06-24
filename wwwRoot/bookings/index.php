@@ -42,6 +42,13 @@
 							<tbody>
 								<tr>
 									<td>
+										<a href="https://zoom.us/meeting/register/tJMlc--orzMiE9AKlLKF8ZpN2bQwQeNshdOi" target="_blank">
+											Writing On Purpose | Screenwriters' Accountability Lab
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
 										<div class="row">
 											<div class="col-lg-4">
 												<p><strong>1st Tuesday of The Month</strong><br>
@@ -87,6 +94,7 @@
 											</div>
 											<div class="col-lg-4">
 												<p>Join our faithful HPN members from all over the world to pray for the entertainment industry every Friday! For security, please email <a href="mailto:kelry@hpnemail.org">kelry@hpnemail.org</a> for the Zoom link.</p>
+												<p><a href="https://docs.google.com/forms/d/1ygBHxyrvrXWoteUKgRkG87jnvKeGAkbVFthCGUyydM4/edit?usp=sharing" target="_blank">Hollywood Prayer Member Form</a></p>
 											</div>
 										</div>
 									</td>
