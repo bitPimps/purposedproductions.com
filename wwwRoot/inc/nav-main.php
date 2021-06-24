@@ -47,10 +47,17 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdownSocial" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Follow</a>
 							<div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownSocial">
+								<h6 class="dropdown-header">Facebook</h6>
 								<a class="dropdown-item" href="https://www.facebook.com/PurposedProductions/" target="_blank"><i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>@PurposedProductions</a>
 								<a class="dropdown-item" href="https://www.facebook.com/jana.m.gamble" target="_blank"><i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>@JanaMGamble</a>
+								<a class="dropdown-item" href="https://www.facebook.com/groups/627240804538248" target="_blank"><i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>@Hollywood Prayer Network StL</a>
+								<div class="dropdown-divider"></div>
+								<h6 class="dropdown-header">Instagram</h6>
 								<a class="dropdown-item" href="https://www.instagram.com/purposedproductions/" target="_blank"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i>@PurposedProductions</a>
 								<a class="dropdown-item" href="https://www.instagram.com/AuthorJMG/" target="_blank"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i>@AuthorJMG</a>
+								<a class="dropdown-item" href="https://www.instagram.com/HollywoodPrayerStL/" target="_blank"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i>@HollywoodPrayerStL</a>
+								<div class="dropdown-divider"></div>
+								<h6 class="dropdown-header">Twitter</h6>
 								<a class="dropdown-item" href="https://twitter.com/purposed_prods" target="_blank"><i class="fa fa-twitter-square fa-fw" aria-hidden="true"></i>@Purposed_Prods</a>
 								<a class="dropdown-item" href="https://twitter.com/authorjmg" target="_blank"><i class="fa fa-linkedin-square fa-fw" aria-hidden="true"></i>@Jana M. Gamble</a>
 							</div>
