@@ -61,7 +61,7 @@
 											<div class="col-lg-4">
 												<p>Where: @RISE & via Zoom<br>
 													8820 Ladue Rd., StL, 63124<br>
-													Register at <a href="mailto:PurposedProductions@gmail.com">PurposedProductions@gmail.com</a></p>
+													<a href="https://zoom.us/meeting/register/tJMlc--orzMiE9AKlLKF8ZpN2bQwQeNshdOi" target="_blank">Register</a></p>
 											</div>
 										</div>
 									</td>
