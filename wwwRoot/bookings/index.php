@@ -78,6 +78,7 @@
 											</div>
 											<div class="col-lg-4">
 												<p>Join us spread the L.O.V.E, pray for people, the projects & the issues the plague both one city & Hollywood- On Purpose!</p>
+												<p><a href="https://zoom.us/meeting/register/tJYrde2uqTkqGdJO27IjHs-fZHeS-SwL3rAb" target="_blank">Register</a></p>
 											</div>
 										</div>
 									</td>
