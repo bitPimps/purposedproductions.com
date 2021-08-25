@@ -22,6 +22,7 @@
 								<div class="dropdown-divider"></div>
 								<h6 class="dropdown-header">Newsletters</h6>
 								<a class="dropdown-item" id="mainnavPR1" href="/docs/Purposed-Pages-v01-iss01.pdf" target="_blank">Purposed Pages Newsletter - Volum 1, Issue 1 - 2021</a>
+								<a class="dropdown-item" id="mainnavPR1" href="/docs/Purposed-Pages-v01-iss02.pdf" target="_blank">Purposed Pages Newsletter - Volum 1, Issue 2 - 2021</a>
 							</div>
 						</li>
 						<!--
