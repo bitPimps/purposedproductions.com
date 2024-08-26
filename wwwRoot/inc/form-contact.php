@@ -82,44 +82,56 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$msg_contact	=	"Please provide your comments, questions, requests, etc.";
 	} else {
 		if ($warning == "") {
-			//Create a new PHPMailer instance
-			$mail = new PHPMailer;
-			$mail->isSMTP();
-			//Enable SMTP debugging
-			// 0 = off (for production use)
-			// 1 = client messages
-			// 2 = client and server messages
-			$mail->SMTPDebug = 0;
-			$mail->Debugoutput = 'html';
-			$mail->Host = 'smtp.gmail.com';
-			$mail->Port = 587;
-			$mail->SMTPSecure = 'tls';
-			$mail->SMTPAuth = true;
-			$mail->SMTPOptions = array(
-									   'ssl' => array(
-													  'verify_peer' => false,
-													  'verify_peer_name' => false,
-													  'allow_self_signed' => true
-													  )
-									   );
-			$mail->Username = "websiteforms@iconatg.com";
-			$mail->Password = "Icon17999$";
-			$mail->setFrom('PurposedProductions@Gmail.com', 'PURPOSED Productions Website');
-			$mail->addReplyTo('PurposedProductions@Gmail.com', 'PURPOSED Productions Website');
-			$mail->addAddress('PurposedProductions@Gmail.com', 'PURPOSED Productions Website');
-			//$mail->addAddress('scott.lix@iconagility.com', 'Icon Website');
-			$mail->Subject = 'PURPOSED Productions Contact';
-			$mail->Body =	"The user has sent an e-mail.\n" .
-							"Referer: " . $whereFrom . "\n\n" . 
-							"Name: " . $inputName . "\n" .
-							"Contact Email: " . $inputEmail . "\n" .
-							"Phone Number: " . $inputPhone . "\n" .
-							"Comments:\n" . $inputComments . "\n\n";
-			if (!$mail->send()) {
-				$error		=	"True";
+			// Build POST request:
+			$recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+			$recaptcha_secret = '6LcA1JMaAAAAAKdT8RxRStlon69RZgv04Q0CEdIl';
+			$recaptcha_response = $_POST['recaptcha_response'];
+			// Make and decode POST request:
+			$recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+			$recaptcha = json_decode($recaptcha);
+			if ($recaptcha->score >= 0.5) {
+
+				//Create a new PHPMailer instance
+				$mail = new PHPMailer;
+				$mail->isSMTP();
+				//Enable SMTP debugging
+				// 0 = off (for production use)
+				// 1 = client messages
+				// 2 = client and server messages
+				$mail->SMTPDebug = 0;
+				$mail->Debugoutput = 'html';
+				$mail->Host = 'smtp.gmail.com';
+				$mail->Port = 587;
+				$mail->SMTPSecure = 'tls';
+				$mail->SMTPAuth = true;
+				$mail->SMTPOptions = array(
+										'ssl' => array(
+														'verify_peer' => false,
+														'verify_peer_name' => false,
+														'allow_self_signed' => true
+														)
+										);
+				$mail->Username = "websiteforms@iconatg.com";
+				$mail->Password = "Icon17999$";
+				$mail->setFrom('PurposedProductions@Gmail.com', 'PURPOSED Productions Website');
+				$mail->addReplyTo('PurposedProductions@Gmail.com', 'PURPOSED Productions Website');
+				$mail->addAddress('PurposedProductions@Gmail.com', 'PURPOSED Productions Website');
+				//$mail->addAddress('scott.lix@iconagility.com', 'Icon Website');
+				$mail->Subject = 'PURPOSED Productions Contact';
+				$mail->Body =	"The user has sent an e-mail.\n" .
+								"Referer: " . $whereFrom . "\n\n" . 
+								"Name: " . $inputName . "\n" .
+								"Contact Email: " . $inputEmail . "\n" .
+								"Phone Number: " . $inputPhone . "\n" .
+								"Comments:\n" . $inputComments . "\n\n";
+				if (!$mail->send()) {
+					$error		=	"True";
+				} else {
+					$success	=	"True";
+					$wasSent	=	"True";
+				}
 			} else {
-				$success	=	"True";
-				$wasSent	=	"True";
+				$error			=	"True";
 			}
 		}
 	}
@@ -147,6 +159,7 @@ function test_input_contact($data) {
 						<?php if($wasSent==""){ ?>
 						<p>Send us a message!</p>
 						<form role="form" id="contactForm" method="post" action="<?php echo htmlspecialchars(basename($_SERVER["REQUEST_URI"]));?>">
+							<input type="hidden" name="recaptcha_response" id="recaptchaResponse" />
 							<input type="text" id="website" name="website" />
 							<div class="form-group">
 								<label for="inputName">Full Name</label> <small class="text-danger">(Required)</small>
@@ -165,7 +178,7 @@ function test_input_contact($data) {
 								<textarea class="form-control" rows="7" id="inputComments" name="inputComments" placeholder="Requests / Questions"><?php if(isset($inputComments) && $inputComments != "") { ?><?php echo $inputComments ?><?php } ?></textarea>
 							</div>
 							<div class="form-group">
-								<button type="submit" 
+								<button 
 									class="g-recaptcha btn btn-success" 
 									data-sitekey="6LcA1JMaAAAAAKzWd7aJB0NKPOi4kZQaGVlJ3hKO" 
 									data-callback='onSubmit' 
